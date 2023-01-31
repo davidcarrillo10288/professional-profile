@@ -1,8 +1,9 @@
 ### Hi there 👋
-Python - SQL - PostgreSQL - Tableau -PowerBI - Git - GitHub -VSCode
+
+# Python - SQL - PostgreSQL - Tableau -PowerBI - Git - GitHub -VSCode
 
 
-Librerias: Numpy, pandas, Matplotlib, scikitlearn, scipy, seaborn, moviepy, SpeechRecognition, ....
+# Librerias: Numpy, pandas, Matplotlib, scikitlearn, scipy, seaborn, moviepy, SpeechRecognition, ....
 
 - :)  I'm a Enthusiastic data scientist and Machine learning engineer
 - 🔭 I’m currently working on as a Freelancer
