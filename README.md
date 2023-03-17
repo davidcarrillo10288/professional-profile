@@ -5,7 +5,7 @@
 
 ### Librerias: Numpy, pandas, Matplotlib, scikitlearn, scipy, seaborn, moviepy, SpeechRecognition, ....
 
-- :)  I'm a Enthusiastic data scientist and Machine learning engineer
+- :)  I'm an Enthusiastic data scientist and Machine learning engineer
 - 🔭 I’m currently working on as a Freelancer
 - 🌱 I’m currently learning scikit-learn
 - 👯 I’m looking to collaborate different kind of projects
