@@ -7,6 +7,6 @@
 
 --> Puedes Visitar mi Página web en el siguiente enlace:
 
-www.davidcarrillo10288.github.io/profesional-profile
+www.davidcarrillo10288.github.io/professional-profile
 
  
