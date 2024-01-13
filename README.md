@@ -1,27 +1,12 @@
-### Hi there 👋
+# CREACIÓN DE PERFIL PROFESIONAL
+## USANDO CHAT GTP
 
-### Python - SQL - PostgreSQL - Tableau -PowerBI - Git - GitHub -VSCode
+* Este proyecto lo realicé con la intención de crear Mi Perfil Profesional, pero esta vez utilizando todo el poder del Chat GTP
+* El cual nos guiará por el camino de la construcción de la Página web
+* Usaremos GitHub Pages como lugar de alojamiento de nuestro sitio web desarrollado
 
+--> Puedes Visitar mi Página web en el siguiente enlace:
 
-### Librerias: Numpy, pandas, Matplotlib, scikitlearn, scipy, seaborn, moviepy, SpeechRecognition, ....
-
-- :)  I'm an Enthusiastic data scientist and Machine learning engineer
-- 🔭 I’m currently working on as a Freelancer
-- 🌱 I’m currently learning scikit-learn
-- 👯 I’m looking to collaborate different kind of projects
-- 💬 Ask me about anything you want, I will always be here to answer
-- 📫 How to reach me: davidicc28@gmail.com
-
-<!--
-**davidcarrillo10288/davidcarrillo10288** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-- :) I'm a Enthusiastic data scientist and Machine learning engineer
-- 🔭 I’m currently working on as a Freelancer
-- 🌱 I’m currently learning scikit-learn
-- 👯 I’m looking to collaborate different kind of projects
-- 💬 Ask me about anything you want, I will always be here to answer
-- 📫 How to reach me: davidicc28@gmail.com
--->
+www.davidcarrillo10288.gituhub.io/profesional-perfil
 
  
