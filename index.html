@@ -4,77 +4,285 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Carrillo Castillo - Portafolio de Ciencia de Datos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-dFsF2vTPrGWimwq2Uq6OO8raGe6ssJNEACB2MtvDh2MmM/HhzxYmPbGBZo4d+9X93QVjW7Qv8Kn8zFNTueuO4w==" crossorigin="anonymous" />
     <style>
+        img {
+            border-radius: 50%;
+            max-width: 200px;
+            height: auto;
+            margin: 20px 0;
+        }
+
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #0a0a0a;
-            color: #ffffff;
+            /* background-color: #f4f4f4; */
             margin: 0;
             padding: 0;
+            background: url(imagenes/wall-1846965.jpg) repeat; /* Ruta a tu imagen de fondo y configuración de repetición */
+            background-size: cover; /* Cubre todo el fondo */
+            color: #333333;
             text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
 
         header {
-            background-color: #1a1a1a;
-            padding: 20px;
+            /* background-color: #2c3e50; */
+            background: url(imagenes/digitization-3614386_1280.jpg); /* Ruta a tu imagen de fondo y configuración de repetición */
+            background-size: cover; /* Cubre todo el fondo */
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #ecf0f1;
+            padding: 0px;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+        header h1,
+        header p {
+            margin-bottom: 0px; /* Puedes ajustar este valor según tus preferencias */
+        }
+
+        header img {
+            margin-bottom: 0px; /* Ajusta según sea necesario */
         }
 
         h1 {
-            color: #42f5e9;
+            color: #42f560;
         }
 
+
         section {
-            padding: 50px;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 30px; 
+            width: 60%; /* Anchura del 80% del contenedor principal */
+            margin: 0 auto; /* Centra el bloque en el contenedor principal */
+            text-align: justify;
+            margin-bottom: 5px;
         }
 
         footer {
-            background-color: #1a1a1a;
-            padding: 20px;
+            background-color: #000306;
+            color: #ecf0f1;
+            padding: 0px;
+            width: 100%;
+            text-align: center;
         }
 
         p {
-            font-size: 18px;
+            font-size: 15px;
             line-height: 1.6;
         }
 
+
+        .aboutme {
+            background-color: #ffffff; /* Color de fondo para la sección "Sobre Mí" */
+            color: #000000;
+            padding: 30px;
+        }
+
+        .projects {
+            background-color: #000000; /* Color de fondo para la sección de proyectos */
+            color: #ffffff;
+            padding: 30px;
+        }
+
         .project {
-            background-color: #2a2a2a;
+            background-color: #ffffff;
+            color: #000000;
             border-radius: 10px;
             padding: 20px;
             margin: 20px 0;
-            text-align: left;
+        }
+
+
+        .experience-item{
+            background-color: #ffffff; /* Color de fondo para la sección "Sobre Mí" */
+            color: #000000;
+            padding: 30px;
+        }
+
+        .experience-item h3 {
+            margin-bottom: 5px;
+        }
+
+        .experience-item h4,
+        .experience-item p {
+            margin: 0;
+        }
+
+        .education {
+            background-color: #000000; /* Color de fondo para la sección de educación */
+            color: #ffffff;
+            padding: 30px;
+            margin-bottom: 5px;
+        }
+
+        .education-item {
+            margin-bottom: 20px;
+        }
+
+        .education-item p {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-bottom: 10px;
+        }
+
+        .education-item img {
+            max-width: 100px;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #1a1a1a;
+            padding: 5px;
+            color: #ffffff;
+        }
+
+        .contact-info a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .contact-info i {
+            margin-right: 5px;
         }
     </style>
 </head>
 <body>
 
+    <!-- <section>
+        <h2></h2>
+        <img src="imagenes/davidcarrillo.png" alt="David Carrillo Castillo">
+    </section> -->
+
     <header>
+        <img src="imagenes/davidcarrillo.png" alt="David Carrillo Castillo">
         <h1>David Carrillo Castillo</h1>
-        <p>Data Scientist Junior | Ingeniería de Petróleo</p>
+        <h2>Data Scientist Junior | IA Master Student</h2>
     </header>
 
-    <section>
-        <h2>Sobre Mí</h2>
-        <p>Hola, soy David Carrillo Castillo, un apasionado Data Scientist Junior con un fondo en Ingeniería de Petróleo. Mi objetivo es utilizar mis habilidades analíticas para extraer conocimientos significativos de los datos y crear soluciones innovadoras.</p>
+    <section class="contact-info">
+        <a href="https://wa.me/51957639879" target="_blank"><i class="fab fa-whatsapp"></i>WhatsApp</a>
+        <a href="mailto:davidicc28@gmail.com"><i class="fas fa-envelope"></i>E-mail</a>
+        <a href="https://www.linkedin.com/in/davidcarrillocastillo" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a>
+        <a href="https://github.com/davidcarrillo10288" target="_blank"><i class="fab fa-github"></i>Github</a>
     </section>
 
-    <section>
-        <h2>Proyectos Destacados</h2>
+    <section class="aboutme">
+        <h2><ins>SOBRE MÍ:</ins></h2>
+        <p>
+            Profesional en Ingeniería de petróleo con conocimiento en el campo de la ciencia
+            de datos. Actualmente cursando una Maestría en Inteligencia Artificial. Amplia
+            experiencia en la Industria del Petróleo y en las operaciones de restaurantes. Fuerte
+            experiencia en habilidades cuantitativas, en el campo de la estadística,
+            matemáticas, ciencias de la computación e ingeniería. Apasionado por la tecnología
+            y el aprendizaje constante. Buen nivel hablado y escrito en español e inglés.
+        </p>
+    </section>
+
+    <section class="projects">
+        <h2><ins>PROYECTOS PERSONALES</ins></h2>
         
         <div class="project">
-            <h3>Proyecto 1: Análisis Predictivo</h3>
-            <p>Descripción detallada del proyecto 1...</p>
+            <h3>Proyecto 1: Score Credit Prediction</h3>
+            <p>Estoy contento de compartir este Proyecto 🚀 de CienciadeDatos, donde hacemos un Análisis de Riesgo Crediticio para una 
+               Institución Financiera Alemana. Como científicos de datos, fuimos desafiados con la tarea de construir un modelo de 
+               MachineLearning 🤖 que sea preciso y confiable para evaluar la probabilidad de obtener un buen cliente, aquel que demuestra 
+               ser un pagador confiable.
+               En este proyecto abarcamos todas las etapas del desarrollo para la construcción de un Modelo de MachineLearning 💻. 
+               Desde la Planificación del proyecto, realizando trabajo en equipo, hasta la Optimización del Modelo seleccionado, con 
+               la finalidad de mejorar nuestras métricas y obtener un Modelo más robusto.</p>
         </div>
 
         <div class="project">
-            <h3>Proyecto 2: Visualización de Datos</h3>
-            <p>Descripción detallada del proyecto 2...</p>
+            <h3>Proyecto 2: Transcripción de video Youtube a Texto</h3>
+            <p>Este proyecto, lo realicé con la finalidad de poder transcribir cualquier video de Youtube, en un formato de texto. 
+                La finalidad de este proyecto es poder colocar las transcripciones en los videos de Youtube.</p>
+        </div>
+    </section>
+
+    <section class="experience-item">
+        <h2>Experiencia Laboral</h2>
+        <div>
+            <h3>Freelancer</h3>
+            <p>Apr 2022 - Presente</p>
+            <li>Análisis de datos con Python. Visualización de datos Python, Tableau y Power BI.</li>
+            <li>Manejo de base de datos usando SQL, MYSQL y POSTGRE SQL.</li>
+            <li>Atención al cliente para servicios de empresa Rappi, virtual.</li>
+            <li>Socio conductor, empresas de taxis por aplicativo.</li>
+        </div>
+        <div>
+            <h3>Gerente de Restaurante</h3>
+            <h4>Zankas Comida Peruana</h4>
+            <p>Mar 2016 - Dic 2021</p>
+            <li>Administración del Negocio.</li>
+            <li>Logística y almacén de los productos.</li>
+            <li>Supervisión y contratación del personal.</li>
+        </div>
+        <div>
+            <h3>Ingeniero de Campo</h3>
+            <h4>Halliburton del Perú- Baroid</h4>
+            <p>Oct 2011 - Feb 2016</p>
+            <li>Manejo de fluidos de perforación, en operaciones onshore y offshore.</li>
+            <li>Fuerte conocimiento en fluidos de perforación, base agua y base aceite.</li>
+            <li>DFG - Software de Hidráulica, obtención de gráficos y predicciones sobre limpieza y optimización del pozo petrolero.</li>
+            <li>WSE software - Almacenamiento de los datos, sobre las operaciones de campo, y generación de reportes.</li>
+        </div>
+        <div>
+            <h3>Practicante Profesional</h3>
+            <h4>Weatherford del Peru</h4>
+            <p>Feb 2010 - Set 2010</p>
+            <li>Manipulación de herramientas en operaciones de corridas de Casings.</li>
+            <li>Software Jampro - Obtención de gráficos de torque en enrosque y desenrosque de casings.</li>
+            <li>Apoyo a mi jefe directo con los datos de las operaciones.</li>
+        </div>
+        <div>
+            <h3>Practicante Profesional</h3>
+            <h4>Perupetro S.A.</h4>
+            <p>Dic 2010 - Sep 2011</p>
+            <li>Supervisión de contratos petroleros, fase de Exploración y Explotación.</li>
+            <li>Ingreso de datos sobre la Fiscalización de Hidrocarburos, en el sistema.</li>
+            <li>Apoyo a mi Jefe direto, en reuniones de trabajo sobre campos petroleros.</li>
+        </div>
+    </section>
+<!-- 
+    <section class="education">
+        <h2><ins>EDUCACIÓN</ins></h2>
+
+        <p><strong>Nov 2023 - Actualidad</strong><br>Maestría en Inteligencia Artificial<br>UNIR México</p>
+
+        <p><strong>Abril 2022 - Actualidad</strong><br>Ciencia de Datos & Inteligencia Artificial<br>PLATZI</p>
+    
+        <p><strong>Mar 2005 - Dic 2009</strong><br>Ingeniería de Petróleo<br>Universidad Nacional de Ingenieria</p>
+    </section> -->
+
+    <section>
+        <h2>Educación</h2>
+
+        <div class="education-item">
+            <p><strong>Nov 2023 - Actualidad</strong><br>Maestría en Inteligencia Artificial<br>UNIR México<img src="imagenes/unir.jpeg" alt="UNIR México"></p>
+        </div>
+
+        <div class="education-item">
+            <p><strong>Abril 2022 - Actualidad</strong><br>Ciencia de Datos & Inteligencia Artificial<br>PLATZI<img src="imagenes/PLATZI.jpeg" alt="PLATZI"></p>
+        </div>
+
+        <div class="education-item">
+            <p><strong>Mar 2005 - Dic 2009</strong><br>Ingeniería de Petróleo<br>Universidad Nacional de Ingenieria<img src="imagenes/UNI.jpeg" alt="Universidad Nacional de Ingenieria"></p>
         </div>
     </section>
 
     <footer>
-        <p>Contacto: david@example.com | LinkedIn: linkedin.com/in/davidcarrillo</p>
-    </footer>
+        <p>&copy; 2024 David Carrillo Castillo. Todos los derechos reservados.</p>
+    </footer>    
 
 </body>
 </html>
